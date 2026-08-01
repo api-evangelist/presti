@@ -1,9 +1,26 @@
 aid: presti
 name: Presti
-description: 'Presti is a company surfaced as a portfolio company of partech and added to the API Evangelist
-  network as a stub for enrichment. Sector: Applicative SaaS. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Presti (operated by Teker AI SAS, France) is an AI agent platform for automated product
+  image and video production at scale. eCommerce teams, retailers, and brands write plain-language
+  briefs — attaching product images, packshots, CSVs, or inspiration URLs — and Presti generates
+  studio-quality product staging, 360-degree spins, image-to-video, close-ups, variants, dimension
+  overlays, and infographics, then routes them through a collaborative review-and-approval workspace.
+  It orchestrates multiple third-party generative models (Google Gemini and Veo, OpenAI GPT Image,
+  Flux, Kling, Seedance, Grok, Photoroom) and encodes visual identity via reusable Brand Skills.
+  API access is offered on the Enterprise plan but is not publicly documented.'
 url: https://raw.githubusercontent.com/api-evangelist/presti/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/69a91c9a68fd25dc91b9ed09/69aec8ad1535208895c1e43c_Generated%20Image%20February%2002%2C%202026%20-%2010_25AM%202%20(1).avif
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +29,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Applicative Saas
+- Artificial Intelligence
+- Generative AI
+- Ecommerce
+- Product Photography
+- Image Generation
+- Video Generation
+- Retail
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/presti-domain-security.yml
 - type: Website
-  url: http://presti.ai/
+  url: https://presti.ai/
+- type: SignUp
+  url: https://scale.presti.ai/auth/signup
+- type: Login
+  url: https://scale.presti.ai/auth/login
+- type: Support
+  url: https://presti.ai/contact
+- type: TermsOfService
+  url: https://presti.ai/terms-and-conditions
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
