@@ -48,7 +48,7 @@ tags:
 - Generative AI
 - E-Commerce
 - Product Photography
-- Image-Generation
+- Image Generation
 - Video Generation
 - Retail
 tags_raw:
@@ -61,6 +61,7 @@ tags_raw:
 - Image Generation
 - Video Generation
 - Retail
+- Image-Generation
 apis: []
 maintainers:
 - FN: Kin Lane
