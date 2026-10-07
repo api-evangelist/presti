@@ -1,0 +1,46 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.presti.ai/pricing
+sources:
+- https://www.presti.ai/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T112025
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: per-call
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: 'Credit-based pricing: 1 image = 3 credits, 1 video = 30 credits; credits roll over 1 month on monthly
+  plans. Monthly/annual toggle (annual save 15%) and currency selector USD/EUR/GBP; credit volume dropdown
+  500–50000.'
+plan_count: 4
+currency: USD
+plans:
+- name: Free
+  price_text: $0
+  price: 0
+  currency: USD
+  period: month
+  unit: credits
+  included_quota: 60 monthly credits — up to 20 images or 2 videos.
+- name: Pro
+  price_text: $99
+  price: 99
+  currency: USD
+  period: month
+  unit: credits
+  included_quota: 1000 credits / month; Up to 333 images or 33 videos
+  overage: On-demand credit top-ups
+- name: Enterprise
+  price_text: Custom
+  period: none
+  included_quota: Custom credit volume (50,000+)
+- name: Managed Services
+  price_text: Custom
+  period: none
+  included_quota: Image/video generation, editing, dedicated specialist
