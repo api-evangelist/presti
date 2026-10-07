@@ -69,6 +69,10 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Pricing
+  url: https://www.presti.ai/pricing
+- type: Plans
+  url: plans/presti-plans-pricing.yml
 - url: https://www.presti.ai/blog
   type: Blog
 - type: DomainSecurity
