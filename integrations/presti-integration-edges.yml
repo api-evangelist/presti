@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/presti/integrations
+- https://n8n.io/integrations/presti/
+- https://composio.dev/toolkits/presti
+- https://monid.ai/tools/presti
+checked:
+- https://composio.dev/toolkits/presti
+- https://monid.ai/tools/presti
+- https://n8n.io/integrations/presti/
+- https://zapier.com/apps/presti/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
